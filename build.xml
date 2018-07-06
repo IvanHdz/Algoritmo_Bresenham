@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="Formula_de_Bresenham" default="default" basedir=".">
-    <description>Builds, tests, and runs the project Formula de Bresenham.</description>
+<project name="9._Algoritmo_de_Bresenham" default="default" basedir=".">
+    <description>Builds, tests, and runs the project 9. Algoritmo de Bresenham.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
@@ -58,7 +58,7 @@
 
     An example of overriding the target for project execution could look like this:
 
-        <target name="run" depends="Formula_de_Bresenham-impl.jar">
+        <target name="run" depends="9._Algoritmo_de_Bresenham-impl.jar">
             <exec dir="bin" executable="launcher.exe">
                 <arg file="${dist.jar}"/>
             </exec>
